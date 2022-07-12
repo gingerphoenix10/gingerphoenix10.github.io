@@ -24,7 +24,7 @@
             background-color: rgb(70, 70, 72);
             position: fixed;
             height: 100%;
-            overflow: auto;
+            overflow: hidden;
           }
           
           /* Sidebar links */
@@ -35,6 +35,7 @@
             color: rgb(0, 0, 0);
             padding: 16px;
             text-decoration: none;
+            overflow: hidden;
           }
           
           /* Active/current link */
@@ -42,12 +43,14 @@
             background-color: #04AA6D;
             color: white;
             width: 170px;
+              overflow: hidden;
           }
           
           /* Links on mouse-over */
           .sidebar a:hover:not(.active) {
             background-color: #555;
             color: white;
+              overflow: hidden;
           }
           
           /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
@@ -55,6 +58,7 @@
             margin-left: 200px;
             padding: 1px 16px;
             height: 1000px;
+              overflow: hidden;
           }
           
           /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -63,6 +67,7 @@
               width: 100%;
               height: auto;
               position: relative;
+              overflow: hidden;
             }
             .sidebar a {float: left;}
             div.content {margin-left: 0;}
@@ -73,6 +78,7 @@
             .sidebar a {
               text-align: center;
               float: none;
+                overflow: hidden;
             }
           }
         </style>
