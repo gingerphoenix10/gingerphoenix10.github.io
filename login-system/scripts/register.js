@@ -1,5 +1,6 @@
 if (typeof(Storage) !== "undefined") {
-        console.log("localStorage/sessionStorage.")
+        localStorage.setItem("username", "gingerphoenix10");
+        localStorage.setItem("password", "haha no");
     } else {
         console.log("Sorry! No Web Storage support..")
     }
