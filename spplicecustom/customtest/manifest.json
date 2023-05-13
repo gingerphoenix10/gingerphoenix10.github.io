@@ -1,7 +1,0 @@
-{
-  "title": "Rocket Launcher",
-  "name": "rockets",
-  "file": "rockets.sppkg",
-  "icon": "rockets.jpg",
-  "description": "Replaces the portal gun with a rocket launcher. Left mouse button to fire. Allows for rocket jumping."
-}
