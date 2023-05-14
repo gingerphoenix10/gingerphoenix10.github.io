@@ -3765,12 +3765,12 @@ var UnityLoader = UnityLoader || {
             a +
             "background: url('" +
             n +
-            "') no-repeat center / contain; width: 154px; height: 130px;"),
+            "') no-repeat center / contain; width: auto; height: auto;"),
           e.container.appendChild(e.logo)),
           e.progress ||
             ((e.progress = document.createElement("div")),
             (e.progress.style.cssText =
-              a + " height: 18px; width: 141px; margin-top: 90px;"),
+              a + " height: 18px; width: auto; margin-top: auto;"),
             (e.progress.empty = document.createElement("div")),
             (e.progress.empty.style.cssText =
               "background: url('" +
